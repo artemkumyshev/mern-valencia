@@ -1,0 +1,5 @@
+{
+  "serverPort": 5000,
+  "dbUrl": "mongodb+srv://artemkumyshev:artemkumyshev@cluster0.ehzmc.mongodb.net/valencia?retryWrites=true&w=majority",
+  "secretKey": "mern-secret-key"
+}

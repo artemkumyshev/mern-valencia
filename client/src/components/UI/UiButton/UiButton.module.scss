@@ -1,0 +1,189 @@
+@import "../../../styles/variables";
+
+.button {
+  display: inline-block;
+  color: $color-white;
+  text-transform: uppercase;
+  min-width: 38px;
+  min-height: 38px;
+  background: transparent;
+  border: 2px solid $color-white;
+  border-radius: 40px;
+  padding: 10px 25px;
+  outline: none;
+  box-shadow: 0px 2px 20px -8px rgba($color-black, 0.6);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &__vote {
+    font-size: 18px;
+    font-weight: 900;
+    background-color: $color-primary;
+    border-color: $color-primary;
+    margin: 0 2px;
+    &:hover {
+      background-color: darken($color-primary, 10);
+      border-color: darken($color-primary, 10);
+    }
+    &:active {
+      background-color: darken($color-primary, 20);
+      border-color: darken($color-primary, 20);
+    }
+    
+    &_between {
+      background-color: $color-grayDark;
+      border-color: $color-grayDark;
+      &:hover {
+        background-color: darken($color-grayDark, 10);
+        border-color: darken($color-grayDark, 10);
+      }
+      &:active {
+        background-color: darken($color-grayDark, 20);
+        border-color: darken($color-grayDark, 20);
+      }
+    }
+  }
+}
+
+.primary {
+  background-color: $color-primary;
+  border-color: $color-primary;
+
+  &:hover {
+    background-color: darken($color-primary, 10);
+    border-color: darken($color-primary, 10);
+  }
+  &:active {
+    background-color: darken($color-primary, 20);
+    border-color: darken($color-primary, 20);
+  }
+}
+
+.secondary {
+  background-color: $color-secondary;
+  border-color: $color-secondary;
+
+  &:hover {
+    background-color: darken($color-secondary, 10);
+    border-color: darken($color-secondary, 10);
+  }
+  &:active {
+    background-color: darken($color-secondary, 20);
+    border-color: darken($color-secondary, 20);
+  }
+}
+
+.success {
+  background-color: $color-success;
+  border-color: $color-success;
+
+  &:hover {
+    background-color: darken($color-success, 10);
+    border-color: darken($color-success, 10);
+  }
+  &:active {
+    background-color: darken($color-success, 20);
+    border-color: darken($color-success, 20);
+  }
+}
+
+.danger {
+  background-color: $color-danger;
+  border-color: $color-danger;
+
+  &:hover {
+    background-color: darken($color-danger, 10);
+    border-color: darken($color-danger, 10);
+  }
+  &:active {
+    background-color: darken($color-danger, 20);
+    border-color: darken($color-danger, 20);
+  }
+}
+
+.warning {
+  background-color: $color-warning;
+  border-color: $color-warning;
+
+  &:hover {
+    background-color: darken($color-warning, 10);
+    border-color: darken($color-warning, 10);
+  }
+  &:active {
+    background-color: darken($color-warning, 20);
+    border-color: darken($color-warning, 20);
+  }
+}
+
+.info {
+  background-color: $color-info;
+  border-color: $color-info;
+
+  &:hover {
+    background-color: darken($color-info, 10);
+    border-color: darken($color-info, 10);
+  }
+  &:active {
+    background-color: darken($color-info, 20);
+    border-color: darken($color-info, 20);
+  }
+}
+
+.light {
+  color: $color-black;
+  background-color: $color-light;
+  border-color: $color-light;
+
+  &:hover {
+    color: $color-black;
+    background-color: darken($color-light, 10);
+    border-color: darken($color-light, 10);
+  }
+  &:active {
+    color: $color-black;
+    background-color: darken($color-light, 20);
+    border-color: darken($color-light, 20);
+  }
+}
+
+.dark {
+  background-color: $color-dark;
+  border-color: $color-dark;
+
+  &:hover {
+    background-color: darken($color-dark, 10);
+    border-color: darken($color-dark, 10);
+  }
+  &:active {
+    background-color: darken($color-dark, 20);
+    border-color: darken($color-dark, 20);
+  }
+}
+
+.link {
+  color: $color-primary;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+
+  &:hover {
+    color: darken($color-primary, 10);
+    background-color: transparent;
+    border-color: transparent;
+  }
+  &:active {
+    color: darken($color-primary, 20);
+    background-color: transparent;
+    border-color: transparent;
+  }
+}
+
+.lg {
+  font-size: 16px;
+  padding: 15px 30px;
+}
+.sm {
+  font-size: 12px;
+  padding: 4px 10px;
+  min-height: 28px;
+}

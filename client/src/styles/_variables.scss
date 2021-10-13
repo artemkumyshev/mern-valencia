@@ -1,0 +1,24 @@
+@import "./patterns";
+
+$color-black: #161616;
+$color-white: #ffffff;
+
+$color-grayLight: #e6e6e6;
+$color-grayDark: #978787;
+
+$color-primary: #ff671f;
+$color-secondary: #6c757d;
+$color-success: #0ead1a;
+$color-danger: #fb4242;
+$color-warning: #a19a34;
+$color-info: #17a2b8;
+$color-light: #f8f9fa;
+$color-dark: #343a40;
+
+$background-body: url($pattern-body);
+
+$border-radius-sm: 5px;
+$border-radius: 10px;
+$border-radius-lg: 15px;
+
+$box-shadow: 0px 4px 30px -15px rgba($color-black, 0.3);

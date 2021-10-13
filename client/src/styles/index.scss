@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@import url("normalize-css");
+
+@import "./variables";
+@import "./mixins";
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+  color: $color-black;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: $color-black;
+  background-color: #161616;
+  background-image: $background-body;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1199px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 50px;
+  background-color: $color-white;
+  border-radius: $border-radius-sm;
+  box-shadow: $box-shadow;
+}
+
+.text-center {
+  text-align: center;
+}

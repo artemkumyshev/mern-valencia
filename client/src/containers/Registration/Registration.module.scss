@@ -1,0 +1,45 @@
+@import "@styles/_variables.scss";
+
+.wrapper {
+  width: calc(100% / 12 * 5);
+  padding: 30px 50px;
+  margin: 0 auto;
+  border: 2px solid $color-black;
+  border-radius: $border-radius;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__label {
+    margin-bottom: 5px;
+  }
+
+  &__field {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid $color-black;
+    border-radius: $border-radius-sm;
+    outline: none;
+
+    &_error {
+      border-color: $color-danger;
+    }
+  }
+
+  &__actions {
+    text-align: center;
+  }
+  &__error {
+    color: $color-danger;
+    margin-top: 5px;
+  }
+}
